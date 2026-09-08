@@ -103,7 +103,7 @@ hr{
     color: white;
     font-weight: 400;
     margin-top: 8px;
-    margin-bottom: 22px;
+    margin-bottom: 40px;
 }
 
 .banner .proje-btn{
@@ -112,9 +112,8 @@ hr{
     width: 197px;
     text-decoration: none;
     color: white;
-    padding: 12px 33px 12px 33px;
+    padding: 13px 33px 13px 33px;
     border-radius: 15px;
-    margin-top: 22px;
 }
 
 .proje-btn i{
@@ -235,6 +234,11 @@ hr{
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.178);
     box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.411);
+    transition: transform 0.3s ease;
+}
+
+.box-education:hover{
+    transform: scale(1.05);
 }
 
 .talents-box{
@@ -264,8 +268,13 @@ hr{
     border: 1px solid rgba(255, 255, 255, 0.26);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.74);
     margin: 20px 12px 10px 12px;
+    transition: transform 0.3s ease;
+
     
-    
+}
+
+.talent:hover{
+    transform: scale(1.02);
 }
 
 .talent i{
@@ -285,10 +294,11 @@ hr{
 }
 
 .projects h1{
-    font-size: 35px;
+    font-size: 38px;
     color: white;
     margin-top: 20px;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .project h4{ 
@@ -640,7 +650,8 @@ hr{
 }
 
 .services h2{
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 15px;
 }
 
 .services-box h3{
@@ -699,7 +710,12 @@ hr{
     border-radius: 15px;
     text-align: center;
     box-shadow: 2px 3px 15px -5px #a8aeebd7 ;
+    transition: transform 0.3s ease;
 
+}
+
+.contact-box:hover{
+    transform: scale(1.01);
 }
 
 #message { resize: none;  }
@@ -896,6 +912,7 @@ hr{
         min-width: 0px;
         margin-left: auto;
         margin-top: 20px;
+        border-radius: 15px;
 
     }   
 

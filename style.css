@@ -321,7 +321,7 @@ hr{
     background-color: #0F172A;
     flex: 1 1 310px;
     min-width: 250px;
-    height: 360px;
+    height: 380px;
     padding: 10px 12px 10px 12px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.219);
@@ -337,7 +337,7 @@ hr{
     font-size: 0.9rem;
     width: 100%;
     font-weight: 300;
-    height: 54px;
+    height: 70px;
 }
 
 .project-btn {
@@ -965,7 +965,7 @@ hr{
 }
 
 @media (max-width:480px) {
-        .header ul.active {
+    .header ul.active {
         right: 20px;
 
         width: 350px;
@@ -979,7 +979,7 @@ hr{
     }
 
     .talent{
-        width: 150px;
+        width: 300px;
     }
 
     .contact{
@@ -1019,7 +1019,11 @@ hr{
 
     .education-box::after{
         right: 109%;
-}
+    }
+
+    .banner-foto{
+        margin-left: -23px;
+    }
 
 }
 

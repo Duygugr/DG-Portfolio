@@ -45,6 +45,7 @@ body{
     -webkit-text-stroke: 0.3px #344073;
     text-shadow: 3px 4px 4px #38BDF8;
     letter-spacing: -5%;
+    margin-right: 85px;
 }
 
 .cv-btn{
@@ -320,7 +321,7 @@ hr{
     background-color: #0F172A;
     flex: 1 1 310px;
     min-width: 250px;
-    height: 10%;
+    height: 360px;
     padding: 10px 12px 10px 12px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.219);
@@ -336,6 +337,7 @@ hr{
     font-size: 0.9rem;
     width: 100%;
     font-weight: 300;
+    height: 54px;
 }
 
 .project-btn {
@@ -497,6 +499,7 @@ hr{
     max-width: 500px;
     min-width: 0px;
     margin-left: auto;
+    border-radius: 20px;
 
 }
 
@@ -617,7 +620,7 @@ hr{
     height: 9px;
     border-radius: 50%;
     top: 9px;
-    right: 234px;
+    right: 110%;
 }
 
 .services{
@@ -899,6 +902,7 @@ hr{
         display: block;
     }
 
+
     .aboutMe p{
         max-width: 900px;
         margin-bottom: 15px;
@@ -957,6 +961,65 @@ hr{
     }
 
 
+
+}
+
+@media (max-width:480px) {
+        .header ul.active {
+        right: 20px;
+
+        width: 350px;
+        height: 400px;
+
+    }
+
+    .about-info p{
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .talent{
+        width: 150px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-box{
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .contact-form{
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    .technologies{
+        margin-left: -40px;
+        width: 300px;
+    }
+
+    .education-information{
+        padding-left: 0px;
+        min-width: 400px;
+        margin-left: -40px;
+    }
+
+    .education{
+        margin-left: -40px;
+        min-width: 300px;
+    }
+
+    .education-hr{
+        margin-left: -55px;
+    }
+
+    .education-box::after{
+        right: 109%;
+}
 
 }
 
